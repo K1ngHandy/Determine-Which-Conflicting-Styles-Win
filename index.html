@@ -35,18 +35,24 @@
     /* PROBLEM 3
       Without deleting previous declarations, how can you change the div text size to 24px and change its color to red?
       */
-    /* ENTER YOUR CODE HERE */
+    div {
+      text-size: 24px;
+      color: red;
+    }
 
     /* PROBLEM 4
       Now, without deleting previous declarations, change the h1 color to green.
       */
-    /* ENTER YOUR CODE HERE */
+    h1 {
+      color: green;
+    }
 
     /* PROBLEM 5 (DEBUGGING)
       Somehow we are unable to change the h1 text aligment to right. Why? What can you do below to fix that?
       */
     h1 {
-      text-align: right;
+      text-align: right !important;
+      /* add important designation */
     }
   </style>
 </head>
